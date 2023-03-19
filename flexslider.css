@@ -1,0 +1,138 @@
+/* post slider with flexslider */
+ .flex-viewport{
+  height:240px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;
+}
+.loading .flex-viewport{
+  height:0px
+}
+.flexsider-wrap{
+  margin:15px 0;
+  background:#F0FFF0;
+}
+.flexslider{
+  margin:0 15px;
+  position: relative;
+}
+.flexslider li {
+  /*margin-right:12px;*/
+} 
+.flexslider .slides {
+  width:180px; list-style-type:none; margin:0 0 0 0;padding:0;
+}
+.flexslider li {
+  color:#666; font-family:helvetica; font-size:12px; overflow:hidden; position:relative; padding-top: 10px; line-height: 1.2em;
+}
+.flexslider .flex-control-nav{
+  list-style:none outside none;position:absolute;top:-43px;right:0px;text-align:right;height:10px
+}
+.flexslider .flex-control-nav li{
+  display:inline-block;margin:0 2px
+}
+.flexslider .flex-control-nav a{
+  text-indent:9999px;display:block;width:10px;cursor:pointer;height:10px;background-color:#000;border:1px solid #000;border-radius:0!important
+}
+.flexslider .flex-control-nav a.flex-active{
+  background-color:rgb(132, 219, 6);border:1px solid rgb(144, 241, 40)
+} 
+.flexslider li a {
+  color:#0080ff; text-decoration:none;
+} 
+.flexslider i{
+  color:#999; padding-right:5px;
+} 
+.flexslider .iline{line-height:2em; margin-top:0px;
+} 
+.flexslider .icontent{
+  line-height:1.5em; margin-top:0px;
+} 
+.flexslider div span{
+  margin:0 0px 0 0; display:inline-block;font-weight: normal;
+}
+.flexslider .icategory {
+font-family: oswald;font-size: 11px;
+color: #fff;
+margin:0;
+padding:0 0 8px 0
+width:100px;
+overflow: hidden;
+/*display:none;*/
+}
+.flexslider .icategory a {
+text-decoration:none;
+color:#666!important;
+padding:0px 0px 8px 0px;
+font-size: 11px;
+font-weight: 500;
+overflow: hidden;
+display:none;
+}
+.flexslider .icategory a:first-child {
+color:#666!important;
+display:block;
+overflow: hidden;
+}
+.flexslider .icategory a:hover {
+color:green!important;
+text-decoration:none;
+}
+.flexslider .mbttitle {
+  font-size:14px; color:#666; font-weight:600; text-decoration:none;
+} 
+.flexslider  .mbttitle:hover, .flexslider .itotal a:hover  {color:green; text-decoration:none;
+}
+.flexslider .iedit a{
+  text-decoration:none; color:#999; cursor:pointer; display: none!important;
+}
+.flexslider .iedit:before, .flexslider .iauthor:before, .flexslider .itag:before, .flexslider .icomments:before, .flexslider .idate:before, .flexslider .itotal span:before{
+  font-family:fontAwesome; position:relative; padding-right:0px; color:#999; display: none!important;
+} 
+.flexslider .iauthorpic{
+  width: 0px!important;height: 0px!important;border-radius: 50%; float: none; display: none!important; margin:0px 0px 0px 0px; padding-right:0px; position:relative; top:0px;
+}
+.flexslider .iauthor {
+  display: none!important;
+} 
+.flexslider .flex-div{
+  margin:0px auto 20px auto; display:block; border-bottom:0px solid #eee; padding-bottom:20px!important; position:relative;width:180px;
+} 
+.flexslider .iFeatured{
+  overflow:hidden;position:relative;margin:0 auto 0px auto;padding:0;width:180px;
+} 
+.flexslider .iFeatured a {
+  background: none; padding:0px; display: block;border:0px solid #eee;
+} 
+.flexslider .iFeatured img{
+  width:100%; height:110px!important;-moz-transition:all .3s;-webkit-transition:all .3s;transition:all .3s; border-radius: 0px;object-fit:cover;
+} 
+.flexslider .iFeatured:hover img{
+} 
+.flexslider .icomments a{
+  color:#0080ff; font-family: arial;font-size:12px;display: none!important;
+} 
+.flexslider .icomments a:hover{
+  text-decoration:underline;display: none!important;
+} 
+.flexslider .icomments:befor{
+  content:&#39;\f086&#39;; padding:0px 3px 0px 7px; color:#84DB06;display: none!important;
+}
+.flexslider .idate {
+  color: #666;padding: 0px 0px;font-family: oswald;font-size: 11px;
+}
+
+
+/* flexslider navigasi */
+.flex-direction-nav .flex-nav-prev, .flex-direction-nav .flex-nav-next {
+  position: absolute; z-index: 2; top: 70px; background: #333; height: 30px; font-size: 18px; line-height: 1; color: #fff; text-align: center;  margin: 0px; padding: 7px 0 0 2px;  width: 30px; border-radius: 5px; opacity:.9;
+}
+
+.flex-direction-nav .flex-nav-prev {
+  left: 0px;
+}
+
+.flex-direction-nav .flex-nav-next {
+  right: 0px;
+}
+
+.flex-direction-nav .flex-nav-prev a, .flex-direction-nav .flex-nav-next a {
+  height: 30px; width: 30px; color: #fff !important; transition: all 0.2s ease 0s;
+} 
