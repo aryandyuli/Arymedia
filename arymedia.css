@@ -3809,11 +3809,14 @@ time.published{
 
 /* Footer
 -------------------------------------------------*/
+footer{
+  margin:0px;
+}
 .site-footernbt{
   background:#181818;
   padding:7.5px 0;
   position:relative;
-  margin-bottom:-35px;
+  margin:0px;
 }
 .site-infonbt{
   color:#fff;
