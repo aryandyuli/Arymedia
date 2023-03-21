@@ -4050,7 +4050,7 @@ h2.post-title2 a:hover {
 
 .prev-pp, .next-pp {
   padding: 5px 7px 2px;
-  background:#eee;
+  background:#aaa;
   cursor: pointer;
   position: absolute;
   top: 65px;
@@ -4061,6 +4061,7 @@ h2.post-title2 a:hover {
   line-height:1;
   transition: 0.6s ease;
   user-select: none;
+  opacity: 0.9;
 }
 
 .next-pp {
