@@ -121,10 +121,12 @@ text-decoration:none;
 
 
 /* flexslider navigasi */
-.flex-direction-nav .flex-nav-prev, .flex-direction-nav .flex-nav-next {
+.flex-direction-nav .flex-nav-prev {
   position: absolute; z-index: 2; top: 70px; background: #eee; height: 30px; font-size: 18px; line-height: 1; color: #fff; text-align: center;  margin: 0px; padding: 7px 0 0 2px;  width: 30px; border-radius: 5px; opacity:.9;
 }
-
+.flex-direction-nav .flex-nav-next {
+  position: absolute; z-index: 2; top: 70px; background: #eee; height: 30px; font-size: 18px; line-height: 1; color: #fff; text-align: center;  margin: 0px; padding: 7px 2px 0 0;  width: 30px; border-radius: 5px; opacity:.9;
+}
 .flex-direction-nav .flex-nav-prev {
   left: 0px;
 }
